@@ -26,7 +26,7 @@ const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")("sk_test_51OQD4iFealxv0C5fpCqKJ8M1TgBUtrImhvfjZC31ywXOOLb3EjMZExSyAzOMMZLNgSabkHTXk7lpLUW2dZWmYkE700XQYYPmzW");
 
-const port = process.env.PORT;
+const port = 5000
 
 const app = express();
 
